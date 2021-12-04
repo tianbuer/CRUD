@@ -49,6 +49,7 @@ public class MvcTest {
         ArrayList<Employee> emps = (ArrayList<Employee>) pageInfo.getList();
         for (Employee emp : emps) {
             System.out.println(emp);
+            System.out.println(emp);System.out.println(emp);System.out.println(emp);System.out.println(emp);System.out.println(emp);
         }
 
     }
