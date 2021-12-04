@@ -29,8 +29,8 @@ public class DepartmentController {
     @RequestMapping("/depts")
     public Mag getDeptWithJson() {
         List<Department> all = departmentService.getDepts();
+        System.out.println("22222222222222");
         return Mag.success().add("depts", all);
-
 
     }
 }
