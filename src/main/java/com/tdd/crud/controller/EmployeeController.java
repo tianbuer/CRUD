@@ -27,8 +27,6 @@ public class EmployeeController {
 
     @Autowired
     EmployeeService employeeService;
-    @Autowired
-    EmployeeMapper employeeMapper;
 
     //@RequestMapping("/emps")
    /* public String getEmps(Model model, @RequestParam(value ="pageNo",defaultValue = "1")Integer pageNo,@RequestParam(value = "pageSize",defaultValue="10")Integer pageSize) {

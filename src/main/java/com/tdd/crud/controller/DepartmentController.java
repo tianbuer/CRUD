@@ -19,8 +19,7 @@ import java.util.List;
 public class DepartmentController {
     @Autowired
     DepartmentService departmentService;
-    @Autowired
-    EmployeeService employeeService;
+
 
     @ResponseBody
     @RequestMapping("/depts")

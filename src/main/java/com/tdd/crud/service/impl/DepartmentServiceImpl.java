@@ -12,7 +12,7 @@ import java.util.List;
  * @author tianbuer
  * @date 2021/12/1
  */
-@Service("departmentService")
+@Service
 public class DepartmentServiceImpl implements DepartmentService {
     @Autowired
     DepartmentMapper departmentMapper;

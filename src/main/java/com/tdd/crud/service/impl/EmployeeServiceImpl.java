@@ -13,7 +13,7 @@ import java.util.List;
  * @author tianbuer
  * @date 2021/11/24
  */
-@Service("employeeService")
+@Service
 public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     EmployeeMapper employeeMapper;
